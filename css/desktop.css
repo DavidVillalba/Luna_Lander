@@ -13,25 +13,26 @@ body,html{
 
 .left,.right{
     display: inline-block;
+    background-color: #719ece;
     width: 20%;
     height: 30%;
     position: fixed;
 }
 
 .left{
-    background-color: blue;
     left: 0px;
 }
 
 .right{
-    background-color: green;
     right: 0px;
 }
 
 #nave{
     text-align: center;
+    width: 100%;
     height: 20%;
-    position: absolute;
+    position:fixed;
+    z-index: -1;
 }
 #nave img{
     height: 100%;
