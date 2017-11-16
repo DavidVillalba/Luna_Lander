@@ -14,7 +14,7 @@ body,html{
 .left,.right{
     display: inline-block;
     background-color: #719ece;
-    width: 20%;
+    width: 10%;
     height: 30%;
     position: fixed;
 }
