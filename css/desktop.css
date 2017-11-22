@@ -14,8 +14,8 @@ body,html{
 .left,.right{
     display: inline-block;
     background-color: #719ece;
-    width: 10%;
-    height: 30%;
+    width: 200px;
+    height: 200px;
     position: fixed;
 }
 
@@ -25,6 +25,17 @@ body,html{
 
 .right{
     right: 0px;
+}
+
+#cpanel,#menu{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    padding-top: 25px;
+}
+li{
+    margin: 20px 0px 20px;
 }
 
 #nave{
@@ -49,6 +60,6 @@ body,html{
     margin: 0 auto;
 }
 #moon img{
-    width: 50%;
+    width: 100%;
     height: 100%;
 }
