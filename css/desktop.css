@@ -4,7 +4,6 @@ body,html{
     margin:0px;
 }
 .background{
-    text-align: center;
     background-image: url(../img/fondo.jpg);
     position: fixed;
     background-size: 100% 100%;
@@ -28,6 +27,7 @@ body,html{
 }
 
 #cpanel,#menu{
+    text-align: center;
     list-style: none;
     margin: 0px;
     padding: 0px;
