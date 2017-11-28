@@ -13,7 +13,7 @@ body,html{
 .left,.right{
     display: inline-block;
     background-color: #719ece;
-    width: 200px;
+    width: 210px;
     height: 200px;
     position: fixed;
 }
