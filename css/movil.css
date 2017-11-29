@@ -10,7 +10,7 @@ body,html{
 }
 
 
-.left,.right{
+.left{
     display: inline-block;
     background-color: #719ece;
     width: 100px;
@@ -23,7 +23,15 @@ body,html{
 }
 
 .right{
+    display: none;
     right: 0px;
+}
+
+#movil_menu{
+    right: 0px;
+}
+#menu{
+    display: none;
 }
 
 #cpanel,#menu{
