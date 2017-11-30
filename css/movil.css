@@ -103,11 +103,11 @@ a{
     display: block;
 }
 .menu-content a:hover {
-    background-color: grey;
+    background-color: gray;
 }
 .smenu:hover .menu-content {
     display: block;
 }
 .smenu:hover .boton {
-    background-color: grey;
+    background-color: gray;
 }
