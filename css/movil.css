@@ -10,28 +10,18 @@ body,html{
 }
 
 
-.left{
+.right{
     display: inline-block;
     background-color: #719ece;
     width: 100px;
     height: 225px;
     position: fixed;
+    right: 0px;
 }
 
 .left{
-    left: 0px;
-}
-
-.right{
     display: none;
-    right: 0px;
-}
-
-.sright{
-    display: inline-block;
-    margin: 10px 10px;
-    right: 0px;
-    position: fixed; 
+    left: 0px;
 }
 
 #menu{
@@ -82,16 +72,42 @@ a{
     height: 100%;
 }
 
-.sright a {
-    color: white;
-    font-size: 100%;
-    display:inline-block;
+.boton {
+    background-color: #719ece;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
 }
-#smenu{
-    margin-right: 100px;
+
+.menu {
+    position: relative;
+    display: inline-block;
 }
-ul li:hover ul {display: block;}
-ul li ul {
-    position: fixed;
+
+.menu-content {
     display: none;
+    position: fixed;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.menu-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.menu-content a:hover {
+    background-color: grey;
+}
+
+.menu:hover .menu-content {
+    display: block;
+}
+
+.menu:hover .boton {
+    background-color: grey;
 }
