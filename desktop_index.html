@@ -7,14 +7,17 @@
         <link rel="stylesheet" media="screen and (min-width:720px)" href="css/desktop.css"/>
         <link rel="stylesheet" media="screen and (max-width:720px)" href="css/movil.css"/>
     </head>
-    <body class="background">
+    <body>
+        <div id="background">
+            <img src="img/fondo.jpg" alt="fondo">>
+        </div>
         <div id="nave">
             <img src="img/nave.png" alt="nave">
         </div>
-
         <div id="moon">
             <img src="img/moon.png" alt="moon">
         </div>
+        <!--Panel de control-->
         <div class="right">
             <ul id="cpanel">
                 <li>0.00 m/s</li>
@@ -22,6 +25,7 @@
                 <li>100%</li>
             </ul>
         </div>
+        <!--MENU version horizontal-->
         <div class="left">
             <ul id="menu">
                 <li><a href="desktop_index.html"><span id="pausa">PAUSA</span></a></li>
@@ -29,8 +33,8 @@
                 <li><a href="instruccion.html"><span id="instruccion">INSTRUCCIÓN</span></a></li>
             </ul>
         </div>
-
-        <div class="menu">
+        <!--MENU version móvil-->
+        <div class="smenu">
             <button class="boton">MENU</button>
             <ul class="menu-content">
                 <li><a href="desktop_index.html">PLAY</a></li>
@@ -38,6 +42,4 @@
                 <li><a href="instruccion.html">INSTRUCCIÓN</a></li>
             </ul>
         </div>
-
-    </body>
 </html>
